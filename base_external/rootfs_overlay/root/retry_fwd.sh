@@ -2,7 +2,7 @@
 # called during start in the background to continuosly attempt to forward the ssh
 # port from the remote instance, retrying on closure after a delay
 # Usage:
-#   ./fwd_ssh.sh [keypath] [port] [instance_ip]
+#   ./retry_fwd.sh [keypath] [port] [instance_ip]
 # Author:
 #   James Bohn
 
